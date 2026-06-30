@@ -31,7 +31,7 @@ export default function Page() {
             <div className="relative z-10">
                 <img src="/items/bg.png" width={700} height={100} className="z-10"/>
                 <div className="absolute top-20 left-20 text-black text-[13px] mr-[75px]">
-                    <h1>Sabemos que você é um ótimo programador e conhece muito bem sobre algoritmos, especialmente algoritmos ambiciosos, qual seria o melhor algoritmo que poderiamos utilizar para maximizar o valor dos itens na mochila de Parvo?</h1>
+                    <h1>Sabemos que você é um ótimo programador e conhece muito bem sobre algoritmos, especialmente programação dinâmica, qual seria o melhor algoritmo que poderiamos utilizar para maximizar o valor dos itens na mochila de Parvo?</h1>
                     <div className="h-[50px]"/>
                     <ul className="flex flex-col justify-center items-center gap-[10px]">
                         <li className={intervalScheduling?"text-red-500":"cursor-pointer transition hover:scale-105"} onClick={handleClickInterval}>Interval Scheduling</li>
