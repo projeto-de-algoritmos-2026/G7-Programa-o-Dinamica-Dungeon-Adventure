@@ -3,7 +3,7 @@ Temas:
 
 # Dungeon Adventure — Mochila da Fortuna
 
-**Conteúdo da Disciplina**: Programação Dinâmica<br>
+**Conteúdo da Disciplina**: Programação Dinâmica (Dynamic Programming)<br>
 
 ## Alunos
 
@@ -14,9 +14,9 @@ Temas:
 
 ## Sobre
 
-O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demonstra o funcionamento do **algoritmo da Mochila (Knapsack) baseado no paradigma de Programação Dinâmica**. O jogador assume o papel de um aventureiro que encontra 9 relíquias mágicas em uma dungeon e precisa escolher quais levar em sua mochila de **74 kg** de capacidade, maximizando o valor total.
+O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demonstra o funcionamento do **algoritmo de Programação Dinâmica da Mochila 0/1 (0/1 Knapsack)**. O jogador assume o papel de um aventureiro que encontra 9 relíquias mágicas em uma dungeon e precisa escolher quais levar em sua mochila de **74 kg** de capacidade, maximizando o valor total.
 
-O projeto é baseado na mesma ideia do projeto de Algoritmos Ambiciosos, sendo a outra face do conceito do algoritmo Knapsack, desta vez utilizando um paradigma alternativo.
+O projeto é baseado na mesma ideia do projeto de Algoritmos Ambiciosos, sendo a outra face do conceito do algoritmo Knapsack, desta vez utilizando o paradigma de Programação Dinâmica.
 
 ## Screenshots
 
@@ -55,7 +55,7 @@ Ao abrir a aplicação:
 1. Na **tela inicial**, o personagem apresenta a história. Clique no botão para avançar.
 2. Na **galeria de relíquias**, veja todos os 9 itens disponíveis. Clique no botão para continuar.
 3. Na **tela de escolha**, selecione o algoritmo **Knapsack** (as outras opções ficam em vermelho indicando que estão erradas). Após selecionar corretamente, o botão de avançar aparece.
-4. Na **tela de execução**, clique em **INICIAR** e depois em **PRÓXIMO PASSO** para ver cada decisão do algoritmo ambicioso em tempo real. Uma barra de progresso mostra a capacidade sendo preenchida e a fortuna sendo acumulada.
+4. Na **tela de execução**, clique em **INICIAR** e depois em **PRÓXIMO PASSO** para ver cada decisão do algoritmo de programação dinâmica em tempo real. Uma barra de progresso mostra a capacidade sendo preenchida e a fortuna sendo acumulada.
 5. Ao final, a **tela de resultado** exibe a mochila completa com todos os itens selecionados e o valor total obtido.
 
 
