@@ -34,6 +34,12 @@ export interface KnapsackStep {
   totalValueAdded: number;
   remainingCapacity: number;
   description: string;
+  /** true quando o passo representa a recursão avaliando combinações (não é uma decisão final) */
+  isEvaluating?: boolean;
+  /** valor obtido incluindo este item (para passo de avaliação) */
+  valueWith?: number;
+  /** valor obtido excluindo este item (para passo de avaliação) */
+  valueWithout?: number;
 }
 
 export interface KnapsackResponse {
