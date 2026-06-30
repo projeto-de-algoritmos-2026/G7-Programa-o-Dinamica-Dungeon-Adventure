@@ -29,6 +29,9 @@ interface KnapsackStep {
   totalValueAdded: number;
   remainingCapacity: number;
   description: string;
+  isEvaluating?: boolean;
+  valueWith?: number;
+  valueWithout?: number;
 }
 
 interface KnapsackResponse {
@@ -161,12 +164,15 @@ export default function Page() {
           <div className="relative z-10 p-6">
             {!started ? (
               <p className="text-gray-700 text-[8px] text-center">
-                Pressione INICIAR para o algoritmo de programação dinâmica começar a analisar e selecionar os itens.
+                Pressione INICIAR para a recursão começar a testar combinações de itens.
               </p>
             ) : stepAtual ? (
               <>
                 <p className="text-black text-[8px] mb-2">
                   PASSO {stepAtual.order} / {result.steps.length}
+                  {stepAtual.isEvaluating && (
+                    <span className="ml-2 bg-blue-200 text-blue-900 px-1 rounded text-[6px]">🔍 AVALIANDO</span>
+                  )}
                 </p>
                 <p className="text-black text-[8px] mb-2">
                   Item: <span className="text-yellow-800">{stepAtual.name}</span>
@@ -175,12 +181,14 @@ export default function Page() {
                 <p className="text-gray-800 text-[7px] leading-relaxed">
                   {stepAtual.description}
                 </p>
-                {stepAtual.quantityTaken > 0 ? (
+                {stepAtual.isEvaluating ? (
+                  <p className="text-blue-800 text-[7px] mt-2">⏳ Recursão testando combinações...</p>
+                ) : stepAtual.quantityTaken > 0 ? (
                   <p className="text-green-800 text-[7px] mt-2">
                     ✔ ADICIONADO À MOCHILA
                   </p>
                 ) : (
-                  <p className="text-red-800 text-[7px] mt-2">✘ PULADO — não coube</p>
+                  <p className="text-red-800 text-[7px] mt-2">✘ EXCLUÍDO — não maximiza o valor total</p>
                 )}
               </>
             ) : null}
@@ -227,7 +235,7 @@ export default function Page() {
                   <ul className="flex flex-col gap-1">
                     {result.skippedRelics.map((r) => (
                       <li key={r.relicId} className="text-gray-600 text-[7px]">
-                        ✘ {r.name} — {r.unitWeight}kg (não coube)
+                        ✘ {r.name} — {r.unitWeight}kg (excluído pela recursão)
                       </li>
                     ))}
                   </ul>
