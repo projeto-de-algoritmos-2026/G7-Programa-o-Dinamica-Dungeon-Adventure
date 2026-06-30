@@ -19,6 +19,12 @@ O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demo
 O projeto é baseado na mesma ideia do projeto de Algoritmos Ambiciosos, sendo a outra face do conceito do algoritmo Knapsack, desta vez utilizando o paradigma de Programação Dinâmica.
 
 ## Screenshots
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/5602625a-d4b7-4038-875e-30bd4841a938" />
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/98956ea2-764d-45d5-86bb-5cb6b5246e5d" />
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/faf31fd3-a0a3-4974-99a8-a9e551029afa" />
+
+
+
 
 
 ## Instalação
