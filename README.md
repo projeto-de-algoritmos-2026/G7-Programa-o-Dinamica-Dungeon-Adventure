@@ -16,6 +16,8 @@ Temas:
 
 O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demonstra o funcionamento do **algoritmo da Mochila (Knapsack) baseado no paradigma de Programação Dinâmica**. O jogador assume o papel de um aventureiro que encontra 9 relíquias mágicas em uma dungeon e precisa escolher quais levar em sua mochila de **74 kg** de capacidade, maximizando o valor total.
 
+O projeto é baseado na mesma ideia do projeto de Algoritmos Ambiciosos, sendo a outra face do conceito do algoritmo Knapsack, desta vez utilizando um paradigma alternativo.
+
 ## Screenshots
 
 
