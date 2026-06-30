@@ -27,6 +27,8 @@ export interface KnapsackStep {
   relicId: string;
   name: string;
   ratio: number;
+  unitWeight: number;
+  unitValue: number;
   quantityTaken: number;
   fractionTaken: number;
   totalValueAdded: number;
