@@ -1,9 +1,9 @@
 Temas:
- - Programação dinmaica
+ - Programação Dinâmica
 
 # Dungeon Adventure — Mochila da Fortuna
 
-**Conteúdo da Disciplina**: Algoritmos Ambiciosos (Greedy)<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
 
@@ -14,7 +14,7 @@ Temas:
 
 ## Sobre
 
-O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demonstra o funcionamento do **algoritmo ambicioso da Mochila Fracionária (Fractional Knapsack)**. O jogador assume o papel de um aventureiro que encontra 9 relíquias mágicas em uma dungeon e precisa escolher quais levar em sua mochila de **74 kg** de capacidade, maximizando o valor total.
+O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demonstra o funcionamento do **algoritmo da Mochila (Knapsack) baseado no paradigma de Programação Dinâmica**. O jogador assume o papel de um aventureiro que encontra 9 relíquias mágicas em uma dungeon e precisa escolher quais levar em sua mochila de **74 kg** de capacidade, maximizando o valor total.
 
 ## Screenshots
 
@@ -32,10 +32,10 @@ O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demo
 
 ```bash
 # 1. clone o repositório
-git clone https://github.com/projeto-de-algoritmos-2026/G7_Greed_PA-26.1-Dungeon-Adventure.git
+git clone https://github.com/projeto-de-algoritmos-2026/G7-Promgrama-o-Dinamica-Dungeon-Adventure.git
 
 # 2. entre na pasta do projeto
-cd G7_Greed_PA-26.1-Dungeon-Adventure
+cd G7-Programa-o-Dinamica-Dungeon-Adventure
 
 # 3. instale as dependências
 npm install
@@ -62,5 +62,5 @@ Ao abrir a aplicação:
 O projeto **não utiliza backend separado** — toda a lógica do algoritmo roda nas API Routes do Next.js (server-side), mantendo a arquitetura unificada em um único framework.
 
 ## Video explicativo
-[vÍDEO](https://www.youtube.com/watch?v=arIWizzSzdQ)
+[Vídeo](https://www.youtube.com/watch?v=arIWizzSzdQ)
 
