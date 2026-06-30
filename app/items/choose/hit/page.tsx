@@ -22,6 +22,8 @@ interface KnapsackStep {
   relicId: string;
   name: string;
   ratio: number;
+  unitWeight: number;
+  unitValue: number;
   quantityTaken: number;
   fractionTaken: number;
   totalValueAdded: number;
@@ -168,7 +170,7 @@ export default function Page() {
                 </p>
                 <p className="text-black text-[8px] mb-2">
                   Item: <span className="text-yellow-800">{stepAtual.name}</span>
-                  {" (razão: "}{stepAtual.ratio}{" gp/kg)"}
+                  {" (peso: "}{stepAtual.unitWeight}{" kg, valor: "}{stepAtual.unitValue}{" gp)"}
                 </p>
                 <p className="text-gray-800 text-[7px] leading-relaxed">
                   {stepAtual.description}
