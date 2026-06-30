@@ -70,5 +70,5 @@ Ao abrir a aplicação:
 O projeto **não utiliza backend separado** — toda a lógica do algoritmo roda nas API Routes do Next.js (server-side), mantendo a arquitetura unificada em um único framework.
 
 ## Video explicativo
-[Vídeo](https://www.youtube.com/watch?v=arIWizzSzdQ)
+[Vídeo](https://youtu.be/hDhamNPOmNQ)
 
