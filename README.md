@@ -28,7 +28,7 @@ O projeto é baseado na mesma ideia do projeto de Algoritmos Ambiciosos, sendo a
 **Estilização**: Tailwind CSS 4<br>
 **Pré-Requisitos**: Node.js v20+<br>
 ### Acesso deploy
-[Link da aventura](https://g7-greed-pa-26-1-dungeon-adventure.vercel.app/)
+[Link da aventura](https://g7-programa-o-dinamica-dungeon-adve.vercel.app/)
 
 ### Como rodar localmente
 
